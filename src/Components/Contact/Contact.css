@@ -1,0 +1,89 @@
+.con-info img{
+    height: 20px;
+    width:30px;
+    background-color: antiquewhite;
+}
+.con-tit{
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 60px ;
+}
+.contact-sec{
+    display: flex;
+    gap: 150px;
+}
+.con-left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+.con-left p{
+    max-width: 550px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.con-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.con-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.con-right p{
+    font-size: 20px;
+    /* font-weight: 500; */
+}
+.con-right input{
+    border: none;
+    width: 500px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #392c3e;
+    color: white;
+    font-size: 20px;   
+}
+.con-right input:hover{
+    border: 2px solid white;
+}
+.con-right textarea{
+    border: none;
+    width: 400px;
+    padding: 20px;
+    border-radius: 4px;
+    background: #392c3e;
+    color: white;
+    font-size: 20px;   
+}
+.con-right textarea:hover{
+  border: 2px solid white;
+}
+.con-submit{
+    border: none;
+    color:white;
+    border-radius: 50px;
+    background: linear-gradient(254deg,rgb(103, 68, 108)  -5.09%,rgb(98, 87, 100) );
+    cursor: pointer;
+    margin-bottom: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.con-submit:hover{
+  transform: scale(1.1);
+   transition: 0.3s;
+}
+
